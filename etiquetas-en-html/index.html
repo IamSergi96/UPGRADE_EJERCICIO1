@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML</title>
+</head>
+<body>
+    <header> 
+        <nav></nav>
+    </header>
+    <main>
+        <section>
+
+        </section>
+    </main>
+    <p>este seria mi primer párrafo</p>
+    <h1>Este es mi titulo principal</h1>
+    <h2>Este es un titulo secundario</h2>
+    <h3>terciario</h3>
+    <h4>cuaternario</h4>
+    <h5>quintenario</h5>
+    <h6>sextenario</h6>
+    <a href= "http://google.com" target="_blank">ir a google</a>
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FKaidoInmortal&psig=AOvVaw2QMRwRY8NiYnPUecEvGLmh&ust=1701354332427000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCNjRwfe06YIDFQAAAAAdAAAAABAD"  alt="soy kaido"/>
+    <ul>
+        <li>one piece</li>
+        <li>naruto</li>
+        <li>bleach</li>
+    </ul>
+    <ol>
+        <li>one piece</li>
+        <li>naruto</li>
+        <li>bleach</li>
+    </ol>
+    <table border="1">
+        <thead>
+            <th>Name</th>
+            <th>surname</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <th>Sergi</th>
+            <th>Matas</th>
+            <th>27</th>    
+        </tbody>
+    </table>
+    <p> este es un parrafo <strong> con strong </strong>y <b>con negrita</b></p>
+    <p> este es un parrafo <en>con cursiva </en> y <i> con cursiva con i</i></p>
+    <p> este es un parrafo <span> con span que se puede editar luego, por si solo no hace nada</span></p>
+    <div>
+        <p> una caja</p>
+    </div>
+    <div>
+        <p> otra caja</p>
+    </div>
+    <form  method="get" action="index2.html">
+        <div>
+        <label for="nombre">Nombre</label>
+        <input type="test" name="nombre" placeholder="Nombre" value="Sergi" required minlength="2" maxlength="10"/>
+        <label dor="password">Contraseña</label>
+        <input type="password" name="password" required pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}" minlength="2" maxlength="10"/>
+
+        </div>
+        <div>
+        <label for="Fecha">Fecha</label>
+        <input type="date" name="fecha" />
+        </div>
+        <fieldset>
+        <input type="number" />
+        <input type="color" value="#444444" />
+        <input type="file" />
+        <input type="button" value="enviar" />
+        </fieldset>
+        <select>
+            <option value="opcion1">opción 1</option>
+            <option value="opcion2">opción 2</option>
+        </select>
+        <textarea></textarea>
+        <input type="checkbox" />
+        <input type="radio" name="animal" checked/>Perro
+        <input type="radio" name ="animal" />Gato
+        <input type="radio" name ="animal" />Pájaro
+
+        <button type="submit">enviar</button>
+        <button type="reset">resetear</button>
+        
+
+    </form>
+    <footer>
+
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+p{
+    color: purple;
+}
+h1{
+    color: #00ff00
+}
+.h1_Principal{
+    color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#h1_id{
+    color:rgb(66,66,66);
+    text-decoration: underline;
+    font-weight: 300;
+}
+.h1_Principal span{
+    background-color: rgba(200,0,0,0.666);
+}
+@import url(https://fonts.google.com/specimen/Hedvig+Letters+Serif);
+h2{
+    font-family: cursive;
+    text-decoration: line-through;
+    color:blueviolet;
+    background-color: chartreuse;
+}
